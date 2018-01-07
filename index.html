@@ -8,23 +8,28 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-		<img  src="img/logo_branca.png" height="40em">
+	<nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(#8d008d,#5d005d);">
+		<a href="#"><img  src="img/completa_branca_preta.png" height="40em"></a>
 		<div class="container">
-			<a class="navbar-brand h1 mb-0" href="#"> EMakers </a>
+			<a class="navbar-brand h1 mb-0" href="#"> Home </a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
 				<span class="navbar-toggler-icon"></span>	
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbarSite">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#">Início</a>
+
+					<li class="nav-item dropdown mr-2">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Serviços</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Eletrônica</a>
+							<a class="dropdown-item" href="#">Desenvolvimento Mobile</a>
+							<a class="dropdown-item" href="#">Linguagens</a>
+							<a class="dropdown-item" href="#">Ferramentas</a>
+						</div>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Serviços</a>
-					</li>
-					<li class="nav-item dropdown">
+
+					<li class="nav-item dropdown mr-2">
 						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Cursos</a>
 						<div class="dropdown-menu">
 							<a class="dropdown-item" href="#">Eletrônica</a>
@@ -33,10 +38,10 @@
 							<a class="dropdown-item" href="#">Ferramentas</a>
 						</div>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item mr-2">
 						<a class="nav-link" href="#">Equipe</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item mr-2">
 						<a class="nav-link" href="#">Contato</a>
 					</li>
 				</ul>
