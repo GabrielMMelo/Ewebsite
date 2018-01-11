@@ -37,9 +37,9 @@ function colorNavs() {
 
 	if(nav_1_1_1.className.search("active") != -1) {
 		nav_1_1.style.color = "#FFFFFF";
-		nav_1_1.style.backgroundColor = "#9d009d";
+		nav_1_1.style.backgroundColor = "#7d007d";
 		nav_1_1_1.style.color = "#FFFFFF";
-		nav_1_1_1.style.backgroundColor = "#7d007d";
+		nav_1_1_1.style.backgroundColor = "#9d009d";
 		nav_1_1_2.style.color = "#000000";
 		nav_1_1_2.style.backgroundColor = "#FFFFFF";
 		nav_1_2.style.color = "#000000";
@@ -51,11 +51,11 @@ function colorNavs() {
 	}
 	else if(nav_1_1_2.className.search("active") != -1) {
 		nav_1_1.style.color = "#FFFFFF";
-		nav_1_1.style.backgroundColor = "#9d009d";
+		nav_1_1.style.backgroundColor = "#7d007d";
 		nav_1_1_1.style.color = "#000000";
 		nav_1_1_1.style.backgroundColor = "#FFFFFF";
 		nav_1_1_2.style.color = "#FFFFFF";
-		nav_1_1_2.style.backgroundColor = "#7d007d";
+		nav_1_1_2.style.backgroundColor = "#9d009d";
 		nav_1_2.style.color = "#000000";
 		nav_1_2.style.backgroundColor = "#FFFFFF";
 		nav_1_3.style.color = "#000000";
