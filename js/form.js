@@ -1,10 +1,19 @@
 function enviar() {
     var nome = document.getElementById("inputNome"), email = document.getElementById("inputEmail");
 
-    if (nome.value !== "" && email.value !== "") {
-        alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso!');
+    if (nome.value !== "") {
+    	if(email.value !== "") {
+        	alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso!');
+    	}
+    	else {
+    		alert('ERRO! O campo obrigatório abaixo não foi preenchido: \n \"E-mail\"');
+    	}
     }
+    else if(email.value == "") {
+        	alert('ERRO! Os campos obrigatórios abaixo não foram preenchidos: \n \"Nome\" & \"E-mail\"');
+    }
+
     else {
-    	alert('Erro sr(a) ' + nome.value + ' os seus dados não foram encaminhados com sucesso!');
+    	alert('ERRO! O campo obrigatório abaixo não foi preenchido: \n \"Nome\" ');
     }
 }
